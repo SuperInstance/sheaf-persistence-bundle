@@ -1,0 +1,11 @@
+[package]
+name = "sheaf-persistence-bundle"
+version = "0.1.0"
+edition = "2021"
+description = "Sheaf persistence bundles — cross-modal topological data fusion, multi-parameter persistence, and spectral sequences"
+license = "MIT"
+keywords = ["sheaf", "persistence", "topology", "multi-modal", "spectral"]
+categories = ["mathematics", "science"]
+repository = "https://github.com/SuperInstance/sheaf-persistence-bundle"
+
+[lib]
