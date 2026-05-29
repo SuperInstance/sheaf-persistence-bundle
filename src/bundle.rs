@@ -18,7 +18,7 @@ pub struct SheafBundle {
 
 impl SheafBundle {
     pub fn new(base_dim: usize, fiber_dim: usize) -> Self {
-        let id: Vec<Vec<f64>> = (0..fiber_dim)
+        let _id: Vec<Vec<f64>> = (0..fiber_dim)
             .map(|i| {
                 (0..fiber_dim)
                     .map(|j| if i == j { 1.0 } else { 0.0 })
